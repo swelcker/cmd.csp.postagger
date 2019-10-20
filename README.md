@@ -1,5 +1,5 @@
 # cmd.csp.postagger
-[![Release](https://jitpack.io/v/swelcker/cmd.csp.stemmer.svg?style=flat-square)](https://jitpack.io/#yunyu/vertx-console)
+[![Release](https://jitpack.io/v/swelcker/cmd.csp.postagger.svg?style=flat-square)](https://jitpack.io/#swelcker/cmd.csp.postagger)
 
 A robust and easy-to-use toolkit for POS and morphological tagging. It employs an error-driven approach to automatically construct tagging rules in the form of a binary tree.
 cmd.csp.postagger obtains very fast tagging speed and achieves a competitive accuracy in comparison to the state-of-the-art results. 
