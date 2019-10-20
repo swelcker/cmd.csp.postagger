@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 /**
- * @author DatQuocNguyen
+ * @author DatQuocNguyen, Stefan Welcker modifications
  * 
  */
 public class CSPPOSInitialTagger

@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * @author DatQuocNguyen
+ * @author DatQuocNguyen, Stefan Welcker modifications
  * 
  */
 public class Utils
