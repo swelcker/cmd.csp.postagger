@@ -1,4 +1,4 @@
-package cmd.csp.postagger;
+package csppostagger;
 
 
 public class CSPPOSNode

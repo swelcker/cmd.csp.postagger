@@ -1,4 +1,4 @@
-package cmd.csp.postagger;
+package csppostagger;
 /*
  * Define a 5-word/tag window object to capture the context surrounding a word
  */
