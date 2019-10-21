@@ -9,9 +9,8 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/swelcker/cmd.csp.postagger.svg)](https://GitHub.com/swelcker/cmd.csp.postagger/graphs/contributors/)
 [![GitHub version](https://badge.fury.io/gh/swelcker%2Fcmd.csp.postagger.svg)](https://github.com/swelcker/cmd.csp.postagger)
 
-A robust and easy-to-use toolkit for POS and morphological tagging. It employs an error-driven approach to automatically construct tagging rules in the form of a binary tree.
-cmd.csp.postagger obtains very fast tagging speed and achieves a competitive accuracy in comparison to the state-of-the-art results. 
-Supports pre-trained UPOS, XPOS and morphological tagging models for about 80 languages. See folder `Models` for more details.
+A robust and easy-to-use toolkit for POS tagging. It's approach is to automatically construct tagging rules in the form of a binary tree.
+Supports pre-trained UPOS, XPOS tagging models for about 80 languages. See folder `Models` for more details.
 Used in the Cognitive Service Platform cmd.csp.
 
 
@@ -21,7 +20,7 @@ There are no prerequisites or dependencies others than java core
 
 ### Installing/Usage
 
-To use, merge the following into your POM (or the equivalent into your Gradle build script):
+To use, merge the following into your Maven POM (or the equivalent into your Gradle build script):
 
 ```xml
 <repository>
