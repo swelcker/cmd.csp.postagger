@@ -18,31 +18,24 @@ There are no prerequisites or dependencies others than java core
 To use, merge the following into your POM (or the equivalent into your Gradle build script):
 
 ```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
+<repository>
+  <id>github</id>
+  <name>GitHub swelcker Apache Maven Packages</name>
+  <url>https://maven.pkg.github.com/swelcker</url>
+</repository>
 
-<properties>
-    <cmd.csp.postagger.version>1.0.0</cmd.csp.postagger.version>
-</properties>
-
-<dependencies>
-    <dependency>
-        <groupId>cmd.csp</groupId>
-        <artifactId>cmd.csp.postagger</artifactId>
-        <version>${cmd.csp.postagger.version}</version>
-    </dependency>
-</dependencies>
+<dependency>
+  <groupId>cmd.csp</groupId>
+  <artifactId>csppostagger</artifactId>
+  <version>1.0.0</version>
+</dependency>
 ```
 
 Then, import cmd.csp.postagger.*;` in your application :
 
 ```java
 // Example
-import cmd.csp.postagger.*;
+import csppostagger.*;
 
 	private CSPPOSTagger posTagger = new CSPPOSTagger();
 	private HashMap<String, String> FREQDICT=null;
