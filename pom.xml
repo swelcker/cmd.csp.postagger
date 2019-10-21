@@ -9,6 +9,13 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub swelcker Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/swelcker/cmd.csp.postagger</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
