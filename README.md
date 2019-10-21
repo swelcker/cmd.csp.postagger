@@ -5,9 +5,8 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/swelcker/cmd.csp.postagger/graphs/commit-activity)
 [![GitHub release](https://img.shields.io/github/release/swelcker/cmd.csp.postagger.svg)](https://GitHub.com/swelcker/cmd.csp.postagger/releases/)
 [![GitHub tag](https://img.shields.io/github/tag/swelcker/cmd.csp.postagger.svg)](https://GitHub.com/swelcker/cmd.csp.postagger/tags/)
-[![GitHub commits](https://img.shields.io/github/commits-since/swelcker/cmd.csp.postagger/v1.0.0.svg)](https://GitHub.com/swelcker/cmd.csp.postagger/commit/)
+[![GitHub commits](https://img.shields.io/github/commits-since/swelcker/cmd.csp.postagger/master.svg)](https://GitHub.com/swelcker/cmd.csp.postagger/commit/)
 [![GitHub contributors](https://img.shields.io/github/contributors/swelcker/cmd.csp.postagger.svg)](https://GitHub.com/swelcker/cmd.csp.postagger/graphs/contributors/)
-[![GitHub version](https://badge.fury.io/gh/swelcker%2Fcmd.csp.postagger.svg)](https://github.com/swelcker/cmd.csp.postagger)
 
 A robust and easy-to-use toolkit for POS (Part of Speech; NLP) tagging. It's approach is to automatically construct tagging rules in the form of a binary tree.
 Supports pre-trained UPOS, XPOS tagging models for about 80 languages. See folder `Models` for more details.
